@@ -1,0 +1,38 @@
+{
+  "repository": "mickael-kerjean/filestash",
+  "checked_at": "2026-11-21T21:15:57.741883+08:00",
+  "revision": "b6fe63f4f01eecbada100d567a84c2503de8fbee",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/mickael-kerjean/filestash.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nb6fe63f4f01eecbada100d567a84c2503de8fbee\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/mickael-kerjean/filestash/b6fe63f4f01eecbada100d567a84c2503de8fbee/README.md",
+      "final_url": "https://raw.githubusercontent.com/mickael-kerjean/filestash/b6fe63f4f01eecbada100d567a84c2503de8fbee/README.md",
+      "path": "sources/snapshots/mickael-kerjean--filestash-readme.txt",
+      "sha256": "448f59860ab2ad32108703f5ab57638602952fccc0cd5aea47ad576199ba233f",
+      "http_status": 200,
+      "line_count": 142,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/mickael-kerjean/filestash/b6fe63f4f01eecbada100d567a84c2503de8fbee/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/mickael-kerjean/filestash/b6fe63f4f01eecbada100d567a84c2503de8fbee/LICENSE",
+      "path": "sources/snapshots/mickael-kerjean--filestash-license.txt",
+      "sha256": "76a97c878c9c7a8321bb395c2b44d3fe2f8d81314d219b20138ed0e2dddd5182",
+      "http_status": 200,
+      "line_count": 661,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

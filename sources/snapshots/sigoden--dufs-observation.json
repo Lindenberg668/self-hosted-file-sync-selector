@@ -1,0 +1,38 @@
+{
+  "repository": "sigoden/dufs",
+  "checked_at": "2026-11-21T21:16:04.222588+08:00",
+  "revision": "77291a230565ca090a1d7751d07db82ac418906d",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/sigoden/dufs.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n77291a230565ca090a1d7751d07db82ac418906d\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/sigoden/dufs/77291a230565ca090a1d7751d07db82ac418906d/README.md",
+      "final_url": "https://raw.githubusercontent.com/sigoden/dufs/77291a230565ca090a1d7751d07db82ac418906d/README.md",
+      "path": "sources/snapshots/sigoden--dufs-readme.txt",
+      "sha256": "6a6374001e3f917d9d51496698bb2fccf2aa9c89ead2c3b20fbf3ee31686825b",
+      "http_status": 200,
+      "line_count": 447,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/sigoden/dufs/77291a230565ca090a1d7751d07db82ac418906d/LICENSE-MIT",
+      "final_url": "https://raw.githubusercontent.com/sigoden/dufs/77291a230565ca090a1d7751d07db82ac418906d/LICENSE-MIT",
+      "path": "sources/snapshots/sigoden--dufs-license.txt",
+      "sha256": "4623d04ec401ec83c94b935d75d8b4329e860580e91ed777ef03a0aa3b31bb04",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "LICENSE-MIT"
+    }
+  ],
+  "failures": []
+}

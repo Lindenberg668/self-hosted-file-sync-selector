@@ -1,0 +1,38 @@
+{
+  "repository": "syncthing/syncthing",
+  "checked_at": "2026-11-21T21:15:43.447567+08:00",
+  "revision": "f2ed52347ec461a2b7a70787192f3615bcb6bafd",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/syncthing/syncthing.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\nf2ed52347ec461a2b7a70787192f3615bcb6bafd\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/syncthing/syncthing/f2ed52347ec461a2b7a70787192f3615bcb6bafd/README.md",
+      "final_url": "https://raw.githubusercontent.com/syncthing/syncthing/f2ed52347ec461a2b7a70787192f3615bcb6bafd/README.md",
+      "path": "sources/snapshots/syncthing--syncthing-readme.txt",
+      "sha256": "42b3725bed4bbefe15dc3284f3246333a721818722752fe69f61478b3b8eba15",
+      "http_status": 200,
+      "line_count": 110,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/syncthing/syncthing/f2ed52347ec461a2b7a70787192f3615bcb6bafd/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/syncthing/syncthing/f2ed52347ec461a2b7a70787192f3615bcb6bafd/LICENSE",
+      "path": "sources/snapshots/syncthing--syncthing-license.txt",
+      "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04",
+      "http_status": 200,
+      "line_count": 373,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "bcpierce00/unison",
+  "checked_at": "2026-11-21T21:15:59.478803+08:00",
+  "revision": "8772d26a2eb77cfd0cb6da81807e81f24f51044c",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/bcpierce00/unison.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n8772d26a2eb77cfd0cb6da81807e81f24f51044c\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/bcpierce00/unison/8772d26a2eb77cfd0cb6da81807e81f24f51044c/README.md",
+      "final_url": "https://raw.githubusercontent.com/bcpierce00/unison/8772d26a2eb77cfd0cb6da81807e81f24f51044c/README.md",
+      "path": "sources/snapshots/bcpierce00--unison-readme.txt",
+      "sha256": "6e97b8bdda77fe6b32f6d6b0fab220588b3591f9b52b5b349d471fc05ff1acfb",
+      "http_status": 200,
+      "line_count": 113,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/bcpierce00/unison/8772d26a2eb77cfd0cb6da81807e81f24f51044c/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/bcpierce00/unison/8772d26a2eb77cfd0cb6da81807e81f24f51044c/LICENSE",
+      "path": "sources/snapshots/bcpierce00--unison-license.txt",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "http_status": 200,
+      "line_count": 674,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "haiwen/seafile",
+  "checked_at": "2026-11-21T21:15:44.708154+08:00",
+  "revision": "af6539cebf8484fcd07a4cab7ddfdfc425034a76",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/haiwen/seafile.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\naf6539cebf8484fcd07a4cab7ddfdfc425034a76\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/haiwen/seafile/af6539cebf8484fcd07a4cab7ddfdfc425034a76/README.markdown",
+      "final_url": "https://raw.githubusercontent.com/haiwen/seafile/af6539cebf8484fcd07a4cab7ddfdfc425034a76/README.markdown",
+      "path": "sources/snapshots/haiwen--seafile-readme.txt",
+      "sha256": "099045faf2f21d8cab866dc215953b3adfc0b63e0d6198c98d19f1e0c74bfc2b",
+      "http_status": 200,
+      "line_count": 123,
+      "upstream_filename": "README.markdown"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/haiwen/seafile/af6539cebf8484fcd07a4cab7ddfdfc425034a76/LICENSE.txt",
+      "final_url": "https://raw.githubusercontent.com/haiwen/seafile/af6539cebf8484fcd07a4cab7ddfdfc425034a76/LICENSE.txt",
+      "path": "sources/snapshots/haiwen--seafile-license.txt",
+      "sha256": "e69f455faac12a9359341378802bffb85c98a66aaf1564c4044e0f9bfecabae9",
+      "http_status": 200,
+      "line_count": 352,
+      "upstream_filename": "LICENSE.txt"
+    }
+  ],
+  "failures": []
+}

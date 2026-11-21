@@ -1,0 +1,38 @@
+{
+  "repository": "rclone/rclone",
+  "checked_at": "2026-11-21T21:16:02.517837+08:00",
+  "revision": "ec1eb597b1921a17e871a1deb8c0e9939f2dd456",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/rclone/rclone.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nec1eb597b1921a17e871a1deb8c0e9939f2dd456\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/rclone/rclone/ec1eb597b1921a17e871a1deb8c0e9939f2dd456/README.md",
+      "final_url": "https://raw.githubusercontent.com/rclone/rclone/ec1eb597b1921a17e871a1deb8c0e9939f2dd456/README.md",
+      "path": "sources/snapshots/rclone--rclone-readme.txt",
+      "sha256": "1f7efe6ff77770de1d47915734dbf95e978795c0158ad72c58263ced4f0eadd1",
+      "http_status": 200,
+      "line_count": 207,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/rclone/rclone/ec1eb597b1921a17e871a1deb8c0e9939f2dd456/COPYING",
+      "final_url": "https://raw.githubusercontent.com/rclone/rclone/ec1eb597b1921a17e871a1deb8c0e9939f2dd456/COPYING",
+      "path": "sources/snapshots/rclone--rclone-license.txt",
+      "sha256": "8cd2e9e750b90a04b7d82dbbca3930c696ae0309d7c10464f90a44f45754cd04",
+      "http_status": 200,
+      "line_count": 20,
+      "upstream_filename": "COPYING"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "nextcloud/server",
+  "checked_at": "2026-11-21T21:15:53.844436+08:00",
+  "revision": "45aaca0caf6ca8dcf1525e36a721d03cd23c930e",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/nextcloud/server.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n45aaca0caf6ca8dcf1525e36a721d03cd23c930e\tHEAD\n7d31ae9909d5edb2fab42ff06f725682d4e9c430\trefs/remotes/origin/HEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/nextcloud/server/45aaca0caf6ca8dcf1525e36a721d03cd23c930e/README.md",
+      "final_url": "https://raw.githubusercontent.com/nextcloud/server/45aaca0caf6ca8dcf1525e36a721d03cd23c930e/README.md",
+      "path": "sources/snapshots/nextcloud--server-readme.txt",
+      "sha256": "694e8653a25b8f50d3bc772bd84b088e72ac56b2477f38134996189f8ab26a2c",
+      "http_status": 200,
+      "line_count": 107,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/nextcloud/server/45aaca0caf6ca8dcf1525e36a721d03cd23c930e/COPYING",
+      "final_url": "https://raw.githubusercontent.com/nextcloud/server/45aaca0caf6ca8dcf1525e36a721d03cd23c930e/COPYING",
+      "path": "sources/snapshots/nextcloud--server-license.txt",
+      "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6",
+      "http_status": 200,
+      "line_count": 661,
+      "upstream_filename": "COPYING"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,1290 @@
+{
+  "repository": "self-hosted-file-sync-selector",
+  "checked_on": "2026-11-21",
+  "language": "en",
+  "policy": "Commit-frozen original upstream documents with located short claims. HEAD availability is identity evidence, not a maintenance verdict.",
+  "sources": [
+    {
+      "name": "Syncthing",
+      "repository": "syncthing/syncthing",
+      "url": "https://github.com/syncthing/syncthing",
+      "clone_url": "https://github.com/syncthing/syncthing.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:43.447567+08:00",
+      "version_or_commit": "f2ed52347ec461a2b7a70787192f3615bcb6bafd",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/syncthing/syncthing/f2ed52347ec461a2b7a70787192f3615bcb6bafd/README.md",
+          "final_url": "https://raw.githubusercontent.com/syncthing/syncthing/f2ed52347ec461a2b7a70787192f3615bcb6bafd/README.md",
+          "path": "sources/snapshots/syncthing--syncthing-readme.txt",
+          "sha256": "42b3725bed4bbefe15dc3284f3246333a721818722752fe69f61478b3b8eba15",
+          "http_status": 200,
+          "line_count": 110,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/syncthing/syncthing/f2ed52347ec461a2b7a70787192f3615bcb6bafd/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/syncthing/syncthing/f2ed52347ec461a2b7a70787192f3615bcb6bafd/LICENSE",
+          "path": "sources/snapshots/syncthing--syncthing-license.txt",
+          "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04",
+          "http_status": 200,
+          "line_count": 373,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/syncthing/syncthing.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\nf2ed52347ec461a2b7a70787192f3615bcb6bafd\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "syncthing--syncthing-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Syncthing is a continuous file synchronization program. It synchronizes files between two or more computers. We strive to fulfill the goals below. The goals are listed in order of importance, the most\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/syncthing/syncthing/f2ed52347ec461a2b7a70787192f3615bcb6bafd/README.md",
+          "version_or_commit": "f2ed52347ec461a2b7a70787192f3615bcb6bafd",
+          "checked_at": "2026-11-21T21:15:43.447567+08:00",
+          "snapshot_path": "sources/snapshots/syncthing--syncthing-readme.txt",
+          "line_start": 11,
+          "line_end": 14,
+          "upstream_excerpt": "Syncthing is a **continuous file synchronization program**. It synchronizes\nfiles between two or more computers. We strive to fulfill the goals below.\nThe goals are listed in order of importance, the most important ones first.\nThis is the summary version of the goal list - for more",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "syncthing--syncthing-axis-2",
+          "field": "decision_axis_2",
+          "statement": "is fine to optimize for these values, as long as they are not in conflict with the stated goals above.",
+          "upstream_url": "https://raw.githubusercontent.com/syncthing/syncthing/f2ed52347ec461a2b7a70787192f3615bcb6bafd/README.md",
+          "version_or_commit": "f2ed52347ec461a2b7a70787192f3615bcb6bafd",
+          "checked_at": "2026-11-21T21:15:43.447567+08:00",
+          "snapshot_path": "sources/snapshots/syncthing--syncthing-readme.txt",
+          "line_start": 51,
+          "line_end": 52,
+          "upstream_excerpt": "   is fine to optimize for these values, as long as they are not in conflict\n   with the stated goals above.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "syncthing--syncthing-axis-3",
+          "field": "decision_axis_3",
+          "statement": "https://syncthing.net/security/. There is also a built-in automatic upgrade mechanism (disabled in some distribution channels) which uses a compiled in ECDSA signature. macOS and Windows binaries are \u2026",
+          "upstream_url": "https://raw.githubusercontent.com/syncthing/syncthing/f2ed52347ec461a2b7a70787192f3615bcb6bafd/README.md",
+          "version_or_commit": "f2ed52347ec461a2b7a70787192f3615bcb6bafd",
+          "checked_at": "2026-11-21T21:15:43.447567+08:00",
+          "snapshot_path": "sources/snapshots/syncthing--syncthing-readme.txt",
+          "line_start": 86,
+          "line_end": 89,
+          "upstream_excerpt": "https://syncthing.net/security/. There is also a built-in automatic\nupgrade mechanism (disabled in some distribution channels) which uses a\ncompiled in ECDSA signature. macOS and Windows binaries are also\ncode-signed.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "syncthing--syncthing-license",
+          "field": "license_model",
+          "statement": "MPL-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/syncthing/syncthing/f2ed52347ec461a2b7a70787192f3615bcb6bafd/LICENSE",
+          "version_or_commit": "f2ed52347ec461a2b7a70787192f3615bcb6bafd",
+          "checked_at": "2026-11-21T21:15:43.447567+08:00",
+          "snapshot_path": "sources/snapshots/syncthing--syncthing-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "Mozilla Public License Version 2.0\n==================================\n\n1. Definitions\n--------------\n\n1.1. \"Contributor\"\n    means each individual or legal entity that creates, contributes to\n    the creation of, or owns Covered Software.\n\n1.2. \"Contributor Version\"\n    means the combination of the Contributions of others (if any) used",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/syncthing--syncthing-observation.json"
+    },
+    {
+      "name": "Seafile",
+      "repository": "haiwen/seafile",
+      "url": "https://github.com/haiwen/seafile",
+      "clone_url": "https://github.com/haiwen/seafile.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:44.708154+08:00",
+      "version_or_commit": "af6539cebf8484fcd07a4cab7ddfdfc425034a76",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/haiwen/seafile/af6539cebf8484fcd07a4cab7ddfdfc425034a76/README.markdown",
+          "final_url": "https://raw.githubusercontent.com/haiwen/seafile/af6539cebf8484fcd07a4cab7ddfdfc425034a76/README.markdown",
+          "path": "sources/snapshots/haiwen--seafile-readme.txt",
+          "sha256": "099045faf2f21d8cab866dc215953b3adfc0b63e0d6198c98d19f1e0c74bfc2b",
+          "http_status": 200,
+          "line_count": 123,
+          "upstream_filename": "README.markdown"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/haiwen/seafile/af6539cebf8484fcd07a4cab7ddfdfc425034a76/LICENSE.txt",
+          "final_url": "https://raw.githubusercontent.com/haiwen/seafile/af6539cebf8484fcd07a4cab7ddfdfc425034a76/LICENSE.txt",
+          "path": "sources/snapshots/haiwen--seafile-license.txt",
+          "sha256": "e69f455faac12a9359341378802bffb85c98a66aaf1564c4044e0f9bfecabae9",
+          "http_status": 200,
+          "line_count": 352,
+          "upstream_filename": "LICENSE.txt"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/haiwen/seafile.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\naf6539cebf8484fcd07a4cab7ddfdfc425034a76\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "haiwen--seafile-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Seafile is an open source cloud storage system with privacy protection and teamwork features. Collections of files are called libraries. Each library can be synced separately. A library can also be en\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/haiwen/seafile/af6539cebf8484fcd07a4cab7ddfdfc425034a76/README.markdown",
+          "version_or_commit": "af6539cebf8484fcd07a4cab7ddfdfc425034a76",
+          "checked_at": "2026-11-21T21:15:44.708154+08:00",
+          "snapshot_path": "sources/snapshots/haiwen--seafile-readme.txt",
+          "line_start": 3,
+          "line_end": 3,
+          "upstream_excerpt": "Seafile is an open source cloud storage system with privacy protection and teamwork features. Collections of files are called libraries. Each library can be synced separately. A library can also be encrypted with a user chosen password. Seafile also allows users to create groups and easily sharing files into groups.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "haiwen--seafile-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Seafile Android client: GPLv3 - Desktop syncing client (this repository): GPLv2 - Seafile Server core: AGPLv3 - Seahub (Seafile server Web UI): Apache License v2",
+          "upstream_url": "https://raw.githubusercontent.com/haiwen/seafile/af6539cebf8484fcd07a4cab7ddfdfc425034a76/README.markdown",
+          "version_or_commit": "af6539cebf8484fcd07a4cab7ddfdfc425034a76",
+          "checked_at": "2026-11-21T21:15:44.708154+08:00",
+          "snapshot_path": "sources/snapshots/haiwen--seafile-readme.txt",
+          "line_start": 113,
+          "line_end": 116,
+          "upstream_excerpt": "- Seafile Android client: GPLv3\n- Desktop syncing client (this repository): GPLv2\n- Seafile Server core: AGPLv3\n- Seahub (Seafile server Web UI): Apache License v2",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "haiwen--seafile-license",
+          "field": "license_model",
+          "statement": "GPL-2.0 server core; verify edition-specific components",
+          "upstream_url": "https://raw.githubusercontent.com/haiwen/seafile/af6539cebf8484fcd07a4cab7ddfdfc425034a76/LICENSE.txt",
+          "version_or_commit": "af6539cebf8484fcd07a4cab7ddfdfc425034a76",
+          "checked_at": "2026-11-21T21:15:44.708154+08:00",
+          "snapshot_path": "sources/snapshots/haiwen--seafile-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "This program is released under GPLv2, with the following addition\npermission to link with OpenSSL library.\n\nIf you modify this program, or any covered work, by linking or\ncombining it with the OpenSSL project's OpenSSL library (or a\nmodified version of that library), containing parts covered by the\nterms of the OpenSSL or SSLeay licenses, Seafile Ltd.\ngrants you additional permission to convey the resulting work.\nCorresponding Source for a non-source form of such a combination\nshall include the source code for the parts of OpenSSL used as well\nas that of the covered work.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/haiwen--seafile-observation.json"
+    },
+    {
+      "name": "Nextcloud",
+      "repository": "nextcloud/server",
+      "url": "https://github.com/nextcloud/server",
+      "clone_url": "https://github.com/nextcloud/server.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:53.844436+08:00",
+      "version_or_commit": "45aaca0caf6ca8dcf1525e36a721d03cd23c930e",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/nextcloud/server/45aaca0caf6ca8dcf1525e36a721d03cd23c930e/README.md",
+          "final_url": "https://raw.githubusercontent.com/nextcloud/server/45aaca0caf6ca8dcf1525e36a721d03cd23c930e/README.md",
+          "path": "sources/snapshots/nextcloud--server-readme.txt",
+          "sha256": "694e8653a25b8f50d3bc772bd84b088e72ac56b2477f38134996189f8ab26a2c",
+          "http_status": 200,
+          "line_count": 107,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/nextcloud/server/45aaca0caf6ca8dcf1525e36a721d03cd23c930e/COPYING",
+          "final_url": "https://raw.githubusercontent.com/nextcloud/server/45aaca0caf6ca8dcf1525e36a721d03cd23c930e/COPYING",
+          "path": "sources/snapshots/nextcloud--server-license.txt",
+          "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6",
+          "http_status": 200,
+          "line_count": 661,
+          "upstream_filename": "COPYING"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/nextcloud/server.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n45aaca0caf6ca8dcf1525e36a721d03cd23c930e\tHEAD\n7d31ae9909d5edb2fab42ff06f725682d4e9c430\trefs/remotes/origin/HEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "nextcloud--server-axis-1",
+          "field": "decision_axis_1",
+          "statement": "\ud83d\udcc1 Access your Data You can store your files, contacts, calendars, and more on a server of your choosing. \ud83d\udd04 Sync your Data You keep your files, contacts, calendars, and more synchronized amongst your d\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/nextcloud/server/45aaca0caf6ca8dcf1525e36a721d03cd23c930e/README.md",
+          "version_or_commit": "45aaca0caf6ca8dcf1525e36a721d03cd23c930e",
+          "checked_at": "2026-11-21T21:15:53.844436+08:00",
+          "snapshot_path": "sources/snapshots/nextcloud--server-readme.txt",
+          "line_start": 18,
+          "line_end": 19,
+          "upstream_excerpt": "* \ud83d\udcc1 **Access your Data** You can store your files, contacts, calendars, and more on a server of your choosing.\n* \ud83d\udd04 **Sync your Data** You keep your files, contacts, calendars, and more synchronized amongst your devices.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "nextcloud--server-axis-2",
+          "field": "decision_axis_2",
+          "statement": "licensed under the AGPLv3 or any later version.",
+          "upstream_url": "https://raw.githubusercontent.com/nextcloud/server/45aaca0caf6ca8dcf1525e36a721d03cd23c930e/README.md",
+          "version_or_commit": "45aaca0caf6ca8dcf1525e36a721d03cd23c930e",
+          "checked_at": "2026-11-21T21:15:53.844436+08:00",
+          "snapshot_path": "sources/snapshots/nextcloud--server-readme.txt",
+          "line_start": 93,
+          "line_end": 93,
+          "upstream_excerpt": "licensed under the AGPLv3 or any later version.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "nextcloud--server-axis-3",
+          "field": "decision_axis_3",
+          "statement": "\ud83d\udd12 Security with our encryption mechanisms, HackerOne bounty program and two-factor authentication.",
+          "upstream_url": "https://raw.githubusercontent.com/nextcloud/server/45aaca0caf6ca8dcf1525e36a721d03cd23c930e/README.md",
+          "version_or_commit": "45aaca0caf6ca8dcf1525e36a721d03cd23c930e",
+          "checked_at": "2026-11-21T21:15:53.844436+08:00",
+          "snapshot_path": "sources/snapshots/nextcloud--server-readme.txt",
+          "line_start": 22,
+          "line_end": 22,
+          "upstream_excerpt": "* \ud83d\udd12 **Security** with our encryption mechanisms, [HackerOne bounty program](https://hackerone.com/nextcloud) and two-factor authentication.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "nextcloud--server-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/nextcloud/server/45aaca0caf6ca8dcf1525e36a721d03cd23c930e/COPYING",
+          "version_or_commit": "45aaca0caf6ca8dcf1525e36a721d03cd23c930e",
+          "checked_at": "2026-11-21T21:15:53.844436+08:00",
+          "snapshot_path": "sources/snapshots/nextcloud--server-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/nextcloud--server-observation.json"
+    },
+    {
+      "name": "ownCloud Infinite Scale",
+      "repository": "owncloud/ocis",
+      "url": "https://github.com/owncloud/ocis",
+      "clone_url": "https://github.com/owncloud/ocis.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:48.325544+08:00",
+      "version_or_commit": "3c585e0b2fd7b95d72e14197ab70342ee8b03704",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/owncloud/ocis/3c585e0b2fd7b95d72e14197ab70342ee8b03704/README.md",
+          "final_url": "https://raw.githubusercontent.com/owncloud/ocis/3c585e0b2fd7b95d72e14197ab70342ee8b03704/README.md",
+          "path": "sources/snapshots/owncloud--ocis-readme.txt",
+          "sha256": "217a17d483c05f78ab198dc243a80e122810494bde4c7cc01b0435f71886d438",
+          "http_status": 200,
+          "line_count": 167,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/owncloud/ocis/3c585e0b2fd7b95d72e14197ab70342ee8b03704/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/owncloud/ocis/3c585e0b2fd7b95d72e14197ab70342ee8b03704/LICENSE",
+          "path": "sources/snapshots/owncloud--ocis-license.txt",
+          "sha256": "28a3737c7fdcaf76abd48d12d3a3334a75ac7a4a5924a550d7e437fc41a49e99",
+          "http_status": 200,
+          "line_count": 202,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/owncloud/ocis.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n3c585e0b2fd7b95d72e14197ab70342ee8b03704\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "owncloud--ocis-axis-1",
+          "field": "decision_axis_1",
+          "statement": "ownCloud Infinite Scale (oCIS) is the new file sync & share platform that will be the foundation of your data management platform.",
+          "upstream_url": "https://raw.githubusercontent.com/owncloud/ocis/3c585e0b2fd7b95d72e14197ab70342ee8b03704/README.md",
+          "version_or_commit": "3c585e0b2fd7b95d72e14197ab70342ee8b03704",
+          "checked_at": "2026-11-21T21:15:48.325544+08:00",
+          "snapshot_path": "sources/snapshots/owncloud--ocis-readme.txt",
+          "line_start": 34,
+          "line_end": 34,
+          "upstream_excerpt": "ownCloud Infinite Scale (oCIS) is the new file sync & share platform that will be the foundation of your data management platform.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "owncloud--ocis-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Make sure to download the latest released version today!",
+          "upstream_url": "https://raw.githubusercontent.com/owncloud/ocis/3c585e0b2fd7b95d72e14197ab70342ee8b03704/README.md",
+          "version_or_commit": "3c585e0b2fd7b95d72e14197ab70342ee8b03704",
+          "checked_at": "2026-11-21T21:15:48.325544+08:00",
+          "snapshot_path": "sources/snapshots/owncloud--ocis-readme.txt",
+          "line_start": 36,
+          "line_end": 36,
+          "upstream_excerpt": "Make sure to download the [latest released version](https://download.owncloud.com/ocis/ocis/stable/?sort=time&order=desc) today!",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "owncloud--ocis-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Make sure to download the latest released version today!",
+          "upstream_url": "https://raw.githubusercontent.com/owncloud/ocis/3c585e0b2fd7b95d72e14197ab70342ee8b03704/README.md",
+          "version_or_commit": "3c585e0b2fd7b95d72e14197ab70342ee8b03704",
+          "checked_at": "2026-11-21T21:15:48.325544+08:00",
+          "snapshot_path": "sources/snapshots/owncloud--ocis-readme.txt",
+          "line_start": 36,
+          "line_end": 36,
+          "upstream_excerpt": "Make sure to download the [latest released version](https://download.owncloud.com/ocis/ocis/stable/?sort=time&order=desc) today!",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "owncloud--ocis-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/owncloud/ocis/3c585e0b2fd7b95d72e14197ab70342ee8b03704/LICENSE",
+          "version_or_commit": "3c585e0b2fd7b95d72e14197ab70342ee8b03704",
+          "checked_at": "2026-11-21T21:15:48.325544+08:00",
+          "snapshot_path": "sources/snapshots/owncloud--ocis-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/owncloud--ocis-observation.json"
+    },
+    {
+      "name": "Pydio Cells",
+      "repository": "pydio/cells",
+      "url": "https://github.com/pydio/cells",
+      "clone_url": "https://github.com/pydio/cells.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:54.887401+08:00",
+      "version_or_commit": "e53f0eec4e719903e67aff3b61a9be83d6c242ea",
+      "branch_at_observation": "v5-dev",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/pydio/cells/e53f0eec4e719903e67aff3b61a9be83d6c242ea/README.md",
+          "final_url": "https://raw.githubusercontent.com/pydio/cells/e53f0eec4e719903e67aff3b61a9be83d6c242ea/README.md",
+          "path": "sources/snapshots/pydio--cells-readme.txt",
+          "sha256": "c520e60d05dd0c72fd003599364846288380f9b5810e5b145c9710a14ae49ecd",
+          "http_status": 200,
+          "line_count": 111,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/pydio/cells/e53f0eec4e719903e67aff3b61a9be83d6c242ea/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/pydio/cells/e53f0eec4e719903e67aff3b61a9be83d6c242ea/LICENSE",
+          "path": "sources/snapshots/pydio--cells-license.txt",
+          "sha256": "76a97c878c9c7a8321bb395c2b44d3fe2f8d81314d219b20138ed0e2dddd5182",
+          "http_status": 200,
+          "line_count": 661,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/pydio/cells.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/v5-dev\tHEAD\ne53f0eec4e719903e67aff3b61a9be83d6c242ea\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "pydio--cells-axis-1",
+          "field": "decision_axis_1",
+          "statement": "- Create a database in your chosen DB server,",
+          "upstream_url": "https://raw.githubusercontent.com/pydio/cells/e53f0eec4e719903e67aff3b61a9be83d6c242ea/README.md",
+          "version_or_commit": "e53f0eec4e719903e67aff3b61a9be83d6c242ea",
+          "checked_at": "2026-11-21T21:15:54.887401+08:00",
+          "snapshot_path": "sources/snapshots/pydio--cells-readme.txt",
+          "line_start": 50,
+          "line_end": 50,
+          "upstream_excerpt": "- Create a database in your chosen DB server,",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "pydio--cells-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Note: We have developed and tested Pydio Cells on macOS, Ubuntu, Debian and CentOS. Windows version might still have unknown glitches and is not yet supported.",
+          "upstream_url": "https://raw.githubusercontent.com/pydio/cells/e53f0eec4e719903e67aff3b61a9be83d6c242ea/README.md",
+          "version_or_commit": "e53f0eec4e719903e67aff3b61a9be83d6c242ea",
+          "checked_at": "2026-11-21T21:15:54.887401+08:00",
+          "snapshot_path": "sources/snapshots/pydio--cells-readme.txt",
+          "line_start": 31,
+          "line_end": 31,
+          "upstream_excerpt": "_Note: We have developed and tested Pydio Cells on macOS, Ubuntu, Debian and CentOS. Windows version might still have unknown glitches and is not yet supported._",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "pydio--cells-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Go language v1.21 or higher and a correctly configured Go toolchain, - MySQL database 5.6 or higher (or MariaDB equivalent).",
+          "upstream_url": "https://raw.githubusercontent.com/pydio/cells/e53f0eec4e719903e67aff3b61a9be83d6c242ea/README.md",
+          "version_or_commit": "e53f0eec4e719903e67aff3b61a9be83d6c242ea",
+          "checked_at": "2026-11-21T21:15:54.887401+08:00",
+          "snapshot_path": "sources/snapshots/pydio--cells-readme.txt",
+          "line_start": 28,
+          "line_end": 29,
+          "upstream_excerpt": "- Go language **v1.21** or higher and a [correctly configured](https://golang.org/doc/install#testing) Go toolchain,\n- MySQL database 5.6 or higher (or MariaDB equivalent).",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "pydio--cells-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0 with commercial offerings around the product",
+          "upstream_url": "https://raw.githubusercontent.com/pydio/cells/e53f0eec4e719903e67aff3b61a9be83d6c242ea/LICENSE",
+          "version_or_commit": "e53f0eec4e719903e67aff3b61a9be83d6c242ea",
+          "checked_at": "2026-11-21T21:15:54.887401+08:00",
+          "snapshot_path": "sources/snapshots/pydio--cells-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/pydio--cells-observation.json"
+    },
+    {
+      "name": "Cozy Stack",
+      "repository": "linagora/cozy-stack",
+      "url": "https://github.com/linagora/cozy-stack",
+      "clone_url": "https://github.com/linagora/cozy-stack.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:55.103332+08:00",
+      "version_or_commit": "f8b67f6ff818158d1390e3db6e77d39eacb898b0",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/linagora/cozy-stack/f8b67f6ff818158d1390e3db6e77d39eacb898b0/README.md",
+          "final_url": "https://raw.githubusercontent.com/linagora/cozy-stack/f8b67f6ff818158d1390e3db6e77d39eacb898b0/README.md",
+          "path": "sources/snapshots/linagora--cozy-stack-readme.txt",
+          "sha256": "f3c37fabfef97cf514a41ad6e1d5e0ee507a59b65f56eea4666ac2a95687f592",
+          "http_status": 200,
+          "line_count": 71,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/linagora/cozy-stack/f8b67f6ff818158d1390e3db6e77d39eacb898b0/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/linagora/cozy-stack/f8b67f6ff818158d1390e3db6e77d39eacb898b0/LICENSE",
+          "path": "sources/snapshots/linagora--cozy-stack-license.txt",
+          "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6",
+          "http_status": 200,
+          "line_count": 661,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/linagora/cozy-stack.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nf8b67f6ff818158d1390e3db6e77d39eacb898b0\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "linagora--cozy-stack-axis-1",
+          "field": "decision_axis_1",
+          "statement": "The Cozy-Stack also allows to access the database replication API, allowing to sync documents between the server and local databases, for example in mobile clients.",
+          "upstream_url": "https://raw.githubusercontent.com/linagora/cozy-stack/f8b67f6ff818158d1390e3db6e77d39eacb898b0/README.md",
+          "version_or_commit": "f8b67f6ff818158d1390e3db6e77d39eacb898b0",
+          "checked_at": "2026-11-21T21:15:55.103332+08:00",
+          "snapshot_path": "sources/snapshots/linagora--cozy-stack-readme.txt",
+          "line_start": 35,
+          "line_end": 35,
+          "upstream_excerpt": "The Cozy-Stack also allows to access the database replication API, allowing to sync documents between the server and local databases, for example in mobile clients.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "linagora--cozy-stack-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- create, update, delete documents inside the database;",
+          "upstream_url": "https://raw.githubusercontent.com/linagora/cozy-stack/f8b67f6ff818158d1390e3db6e77d39eacb898b0/README.md",
+          "version_or_commit": "f8b67f6ff818158d1390e3db6e77d39eacb898b0",
+          "checked_at": "2026-11-21T21:15:55.103332+08:00",
+          "snapshot_path": "sources/snapshots/linagora--cozy-stack-readme.txt",
+          "line_start": 29,
+          "line_end": 29,
+          "upstream_excerpt": " - create, update, delete documents inside the database;",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "linagora--cozy-stack-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Cozy is a platform that brings all your web services in the same private space. With it, your web apps and your devices can share data easily, providing you with a new experience. You can install Cozy\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/linagora/cozy-stack/f8b67f6ff818158d1390e3db6e77d39eacb898b0/README.md",
+          "version_or_commit": "f8b67f6ff818158d1390e3db6e77d39eacb898b0",
+          "checked_at": "2026-11-21T21:15:55.103332+08:00",
+          "snapshot_path": "sources/snapshots/linagora--cozy-stack-readme.txt",
+          "line_start": 13,
+          "line_end": 16,
+          "upstream_excerpt": "[Cozy](https://cozy.io) is a platform that brings all your web services in the\nsame private space. With it, your web apps and your devices can share data\neasily, providing you with a new experience. You can install Cozy on your own\nhardware where no one profiles you.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "linagora--cozy-stack-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/linagora/cozy-stack/f8b67f6ff818158d1390e3db6e77d39eacb898b0/LICENSE",
+          "version_or_commit": "f8b67f6ff818158d1390e3db6e77d39eacb898b0",
+          "checked_at": "2026-11-21T21:15:55.103332+08:00",
+          "snapshot_path": "sources/snapshots/linagora--cozy-stack-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/linagora--cozy-stack-observation.json"
+    },
+    {
+      "name": "SFTPGo",
+      "repository": "drakkan/sftpgo",
+      "url": "https://github.com/drakkan/sftpgo",
+      "clone_url": "https://github.com/drakkan/sftpgo.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:55.088374+08:00",
+      "version_or_commit": "360ca0118892afac6f162920b0f08e5b5660b436",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/drakkan/sftpgo/360ca0118892afac6f162920b0f08e5b5660b436/README.md",
+          "final_url": "https://raw.githubusercontent.com/drakkan/sftpgo/360ca0118892afac6f162920b0f08e5b5660b436/README.md",
+          "path": "sources/snapshots/drakkan--sftpgo-readme.txt",
+          "sha256": "d6c4c3670c8c1a4f3bbbd874ad5580cd78d3296d389f4d00b5652292012e708e",
+          "http_status": 200,
+          "line_count": 129,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/drakkan/sftpgo/360ca0118892afac6f162920b0f08e5b5660b436/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/drakkan/sftpgo/360ca0118892afac6f162920b0f08e5b5660b436/LICENSE",
+          "path": "sources/snapshots/drakkan--sftpgo-license.txt",
+          "sha256": "20b067f86de375aae6db0f283ab2e65de24d537733b89bd58432c101259d84cf",
+          "http_status": 200,
+          "line_count": 661,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/drakkan/sftpgo.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n360ca0118892afac6f162920b0f08e5b5660b436\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "drakkan--sftpgo-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Full-featured and highly configurable event-driven file transfer solution. Server protocols: SFTP, HTTP/S, FTP/S, WebDAV. Storage backends: local filesystem, encrypted local filesystem, S3 (compatible\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/drakkan/sftpgo/360ca0118892afac6f162920b0f08e5b5660b436/README.md",
+          "version_or_commit": "360ca0118892afac6f162920b0f08e5b5660b436",
+          "checked_at": "2026-11-21T21:15:55.088374+08:00",
+          "snapshot_path": "sources/snapshots/drakkan--sftpgo-readme.txt",
+          "line_start": 7,
+          "line_end": 7,
+          "upstream_excerpt": "Full-featured and highly configurable event-driven file transfer solution. Server protocols: SFTP, HTTP/S, FTP/S, WebDAV. Storage backends: local filesystem, encrypted local filesystem, S3 (compatible) Object Storage, Google Cloud Storage, Azure Blob Storage, other SFTP servers.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "drakkan--sftpgo-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Thank you to KeenThemes for granting us a custom license to use their amazing themes for the SFTPGo WebAdmin and WebClient user interfaces, across both the Open Source and Open Core versions.",
+          "upstream_url": "https://raw.githubusercontent.com/drakkan/sftpgo/360ca0118892afac6f162920b0f08e5b5660b436/README.md",
+          "version_or_commit": "360ca0118892afac6f162920b0f08e5b5660b436",
+          "checked_at": "2026-11-21T21:15:55.088374+08:00",
+          "snapshot_path": "sources/snapshots/drakkan--sftpgo-readme.txt",
+          "line_start": 108,
+          "line_end": 108,
+          "upstream_excerpt": "Thank you to [KeenThemes](https://keenthemes.com/) for granting us a custom license to use their amazing [themes](https://keenthemes.com/bootstrap-templates) for the SFTPGo WebAdmin and WebClient user interfaces, across both the Open Source and Open Core versions.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "drakkan--sftpgo-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Full-featured and highly configurable event-driven file transfer solution. Server protocols: SFTP, HTTP/S, FTP/S, WebDAV. Storage backends: local filesystem, encrypted local filesystem, S3 (compatible\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/drakkan/sftpgo/360ca0118892afac6f162920b0f08e5b5660b436/README.md",
+          "version_or_commit": "360ca0118892afac6f162920b0f08e5b5660b436",
+          "checked_at": "2026-11-21T21:15:55.088374+08:00",
+          "snapshot_path": "sources/snapshots/drakkan--sftpgo-readme.txt",
+          "line_start": 7,
+          "line_end": 7,
+          "upstream_excerpt": "Full-featured and highly configurable event-driven file transfer solution. Server protocols: SFTP, HTTP/S, FTP/S, WebDAV. Storage backends: local filesystem, encrypted local filesystem, S3 (compatible) Object Storage, Google Cloud Storage, Azure Blob Storage, other SFTP servers.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "drakkan--sftpgo-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0-only with additional terms; separate enterprise edition",
+          "upstream_url": "https://raw.githubusercontent.com/drakkan/sftpgo/360ca0118892afac6f162920b0f08e5b5660b436/LICENSE",
+          "version_or_commit": "360ca0118892afac6f162920b0f08e5b5660b436",
+          "checked_at": "2026-11-21T21:15:55.088374+08:00",
+          "snapshot_path": "sources/snapshots/drakkan--sftpgo-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/drakkan--sftpgo-observation.json"
+    },
+    {
+      "name": "Filestash",
+      "repository": "mickael-kerjean/filestash",
+      "url": "https://github.com/mickael-kerjean/filestash",
+      "clone_url": "https://github.com/mickael-kerjean/filestash.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:57.741883+08:00",
+      "version_or_commit": "b6fe63f4f01eecbada100d567a84c2503de8fbee",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/mickael-kerjean/filestash/b6fe63f4f01eecbada100d567a84c2503de8fbee/README.md",
+          "final_url": "https://raw.githubusercontent.com/mickael-kerjean/filestash/b6fe63f4f01eecbada100d567a84c2503de8fbee/README.md",
+          "path": "sources/snapshots/mickael-kerjean--filestash-readme.txt",
+          "sha256": "448f59860ab2ad32108703f5ab57638602952fccc0cd5aea47ad576199ba233f",
+          "http_status": 200,
+          "line_count": 142,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/mickael-kerjean/filestash/b6fe63f4f01eecbada100d567a84c2503de8fbee/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/mickael-kerjean/filestash/b6fe63f4f01eecbada100d567a84c2503de8fbee/LICENSE",
+          "path": "sources/snapshots/mickael-kerjean--filestash-license.txt",
+          "sha256": "76a97c878c9c7a8321bb395c2b44d3fe2f8d81314d219b20138ed0e2dddd5182",
+          "http_status": 200,
+          "line_count": 661,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/mickael-kerjean/filestash.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nb6fe63f4f01eecbada100d567a84c2503de8fbee\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "mickael-kerjean--filestash-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Taken literally, the \"truths of the universe\" are a set of core interfaces, one for every key component of Filestash, and they're yours to implement (storage, authentication, authorisation, search, th\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/mickael-kerjean/filestash/b6fe63f4f01eecbada100d567a84c2503de8fbee/README.md",
+          "version_or_commit": "b6fe63f4f01eecbada100d567a84c2503de8fbee",
+          "checked_at": "2026-11-21T21:15:57.741883+08:00",
+          "snapshot_path": "sources/snapshots/mickael-kerjean--filestash-readme.txt",
+          "line_start": 65,
+          "line_end": 65,
+          "upstream_excerpt": "Taken literally, the \"truths of the universe\" are a set of [core interfaces](https://github.com/mickael-kerjean/filestash/tree/master/server/pkg/core), one for every key component of Filestash, and they're yours to implement (storage, authentication, authorisation, search, thumbnailing, apps, middleware, frontend changes, ...)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "mickael-kerjean--filestash-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Taken literally, the \"truths of the universe\" are a set of core interfaces, one for every key component of Filestash, and they're yours to implement (storage, authentication, authorisation, search, th\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/mickael-kerjean/filestash/b6fe63f4f01eecbada100d567a84c2503de8fbee/README.md",
+          "version_or_commit": "b6fe63f4f01eecbada100d567a84c2503de8fbee",
+          "checked_at": "2026-11-21T21:15:57.741883+08:00",
+          "snapshot_path": "sources/snapshots/mickael-kerjean--filestash-readme.txt",
+          "line_start": 65,
+          "line_end": 65,
+          "upstream_excerpt": "Taken literally, the \"truths of the universe\" are a set of [core interfaces](https://github.com/mickael-kerjean/filestash/tree/master/server/pkg/core), one for every key component of Filestash, and they're yours to implement (storage, authentication, authorisation, search, thumbnailing, apps, middleware, frontend changes, ...)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "mickael-kerjean--filestash-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/mickael-kerjean/filestash/b6fe63f4f01eecbada100d567a84c2503de8fbee/LICENSE",
+          "version_or_commit": "b6fe63f4f01eecbada100d567a84c2503de8fbee",
+          "checked_at": "2026-11-21T21:15:57.741883+08:00",
+          "snapshot_path": "sources/snapshots/mickael-kerjean--filestash-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/mickael-kerjean--filestash-observation.json"
+    },
+    {
+      "name": "Unison",
+      "repository": "bcpierce00/unison",
+      "url": "https://github.com/bcpierce00/unison",
+      "clone_url": "https://github.com/bcpierce00/unison.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:15:59.478803+08:00",
+      "version_or_commit": "8772d26a2eb77cfd0cb6da81807e81f24f51044c",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/bcpierce00/unison/8772d26a2eb77cfd0cb6da81807e81f24f51044c/README.md",
+          "final_url": "https://raw.githubusercontent.com/bcpierce00/unison/8772d26a2eb77cfd0cb6da81807e81f24f51044c/README.md",
+          "path": "sources/snapshots/bcpierce00--unison-readme.txt",
+          "sha256": "6e97b8bdda77fe6b32f6d6b0fab220588b3591f9b52b5b349d471fc05ff1acfb",
+          "http_status": 200,
+          "line_count": 113,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/bcpierce00/unison/8772d26a2eb77cfd0cb6da81807e81f24f51044c/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/bcpierce00/unison/8772d26a2eb77cfd0cb6da81807e81f24f51044c/LICENSE",
+          "path": "sources/snapshots/bcpierce00--unison-license.txt",
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+          "http_status": 200,
+          "line_count": 674,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/bcpierce00/unison.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n8772d26a2eb77cfd0cb6da81807e81f24f51044c\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "bcpierce00--unison-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Unison is a file-synchronization tool for POSIX-compliant systems (e.g. BSD, GNU/Linux, macOS) and Windows. It allows two replicas of a collection of files and directories to be stored on different ho\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/bcpierce00/unison/8772d26a2eb77cfd0cb6da81807e81f24f51044c/README.md",
+          "version_or_commit": "8772d26a2eb77cfd0cb6da81807e81f24f51044c",
+          "checked_at": "2026-11-21T21:15:59.478803+08:00",
+          "snapshot_path": "sources/snapshots/bcpierce00--unison-readme.txt",
+          "line_start": 18,
+          "line_end": 21,
+          "upstream_excerpt": "Unison is a file-synchronization tool for POSIX-compliant systems\n(e.g. *BSD, GNU/Linux, macOS) and Windows.  It allows two replicas of a\ncollection of files and directories to be stored on different hosts\n(or different disks on the same host), modified separately, and then",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "bcpierce00--unison-axis-2",
+          "field": "decision_axis_2",
+          "statement": "structure. Updates that do not conflict can be propagated automatically. Conflicting updates are detected and displayed.",
+          "upstream_url": "https://raw.githubusercontent.com/bcpierce00/unison/8772d26a2eb77cfd0cb6da81807e81f24f51044c/README.md",
+          "version_or_commit": "8772d26a2eb77cfd0cb6da81807e81f24f51044c",
+          "checked_at": "2026-11-21T21:15:59.478803+08:00",
+          "snapshot_path": "sources/snapshots/bcpierce00--unison-readme.txt",
+          "line_start": 35,
+          "line_end": 36,
+          "upstream_excerpt": "   structure. Updates that do not conflict can be propagated\n   automatically. Conflicting updates are detected and displayed.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "bcpierce00--unison-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Please also read https://github.com/bcpierce00/unison/wiki before interacting with the issue tracker or asking for help.",
+          "upstream_url": "https://raw.githubusercontent.com/bcpierce00/unison/8772d26a2eb77cfd0cb6da81807e81f24f51044c/README.md",
+          "version_or_commit": "8772d26a2eb77cfd0cb6da81807e81f24f51044c",
+          "checked_at": "2026-11-21T21:15:59.478803+08:00",
+          "snapshot_path": "sources/snapshots/bcpierce00--unison-readme.txt",
+          "line_start": 13,
+          "line_end": 14,
+          "upstream_excerpt": "Please also read https://github.com/bcpierce00/unison/wiki before\ninteracting with the issue tracker or asking for help.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "bcpierce00--unison-license",
+          "field": "license_model",
+          "statement": "GPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/bcpierce00/unison/8772d26a2eb77cfd0cb6da81807e81f24f51044c/LICENSE",
+          "version_or_commit": "8772d26a2eb77cfd0cb6da81807e81f24f51044c",
+          "checked_at": "2026-11-21T21:15:59.478803+08:00",
+          "snapshot_path": "sources/snapshots/bcpierce00--unison-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/bcpierce00--unison-observation.json"
+    },
+    {
+      "name": "rclone",
+      "repository": "rclone/rclone",
+      "url": "https://github.com/rclone/rclone",
+      "clone_url": "https://github.com/rclone/rclone.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:02.517837+08:00",
+      "version_or_commit": "ec1eb597b1921a17e871a1deb8c0e9939f2dd456",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/rclone/rclone/ec1eb597b1921a17e871a1deb8c0e9939f2dd456/README.md",
+          "final_url": "https://raw.githubusercontent.com/rclone/rclone/ec1eb597b1921a17e871a1deb8c0e9939f2dd456/README.md",
+          "path": "sources/snapshots/rclone--rclone-readme.txt",
+          "sha256": "1f7efe6ff77770de1d47915734dbf95e978795c0158ad72c58263ced4f0eadd1",
+          "http_status": 200,
+          "line_count": 207,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/rclone/rclone/ec1eb597b1921a17e871a1deb8c0e9939f2dd456/COPYING",
+          "final_url": "https://raw.githubusercontent.com/rclone/rclone/ec1eb597b1921a17e871a1deb8c0e9939f2dd456/COPYING",
+          "path": "sources/snapshots/rclone--rclone-license.txt",
+          "sha256": "8cd2e9e750b90a04b7d82dbbca3930c696ae0309d7c10464f90a44f45754cd04",
+          "http_status": 200,
+          "line_count": 20,
+          "upstream_filename": "COPYING"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/rclone/rclone.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nec1eb597b1921a17e871a1deb8c0e9939f2dd456\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "rclone--rclone-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Rclone (\"rsync for cloud storage\") is a command-line program to sync files and directories to and from different cloud storage providers.",
+          "upstream_url": "https://raw.githubusercontent.com/rclone/rclone/ec1eb597b1921a17e871a1deb8c0e9939f2dd456/README.md",
+          "version_or_commit": "ec1eb597b1921a17e871a1deb8c0e9939f2dd456",
+          "checked_at": "2026-11-21T21:16:02.517837+08:00",
+          "snapshot_path": "sources/snapshots/rclone--rclone-readme.txt",
+          "line_start": 21,
+          "line_end": 22,
+          "upstream_excerpt": "Rclone *(\"rsync for cloud storage\")* is a command-line program to sync files and\ndirectories to and from different cloud storage providers.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "rclone--rclone-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Rclone (\"rsync for cloud storage\") is a command-line program to sync files and directories to and from different cloud storage providers.",
+          "upstream_url": "https://raw.githubusercontent.com/rclone/rclone/ec1eb597b1921a17e871a1deb8c0e9939f2dd456/README.md",
+          "version_or_commit": "ec1eb597b1921a17e871a1deb8c0e9939f2dd456",
+          "checked_at": "2026-11-21T21:16:02.517837+08:00",
+          "snapshot_path": "sources/snapshots/rclone--rclone-readme.txt",
+          "line_start": 21,
+          "line_end": 22,
+          "upstream_excerpt": "Rclone *(\"rsync for cloud storage\")* is a command-line program to sync files and\ndirectories to and from different cloud storage providers.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "rclone--rclone-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Can serve local or remote files over HTTP/WebDAV/FTP/SFTP/DLNA",
+          "upstream_url": "https://raw.githubusercontent.com/rclone/rclone/ec1eb597b1921a17e871a1deb8c0e9939f2dd456/README.md",
+          "version_or_commit": "ec1eb597b1921a17e871a1deb8c0e9939f2dd456",
+          "checked_at": "2026-11-21T21:16:02.517837+08:00",
+          "snapshot_path": "sources/snapshots/rclone--rclone-readme.txt",
+          "line_start": 185,
+          "line_end": 186,
+          "upstream_excerpt": "- Can [serve](https://rclone.org/commands/rclone_serve/) local or remote files\n  over HTTP/WebDAV/FTP/SFTP/DLNA",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "rclone--rclone-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/rclone/rclone/ec1eb597b1921a17e871a1deb8c0e9939f2dd456/COPYING",
+          "version_or_commit": "ec1eb597b1921a17e871a1deb8c0e9939f2dd456",
+          "checked_at": "2026-11-21T21:16:02.517837+08:00",
+          "snapshot_path": "sources/snapshots/rclone--rclone-license.txt",
+          "line_start": 11,
+          "line_end": 11,
+          "upstream_excerpt": "all copies or substantial portions of the Software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/rclone--rclone-observation.json"
+    },
+    {
+      "name": "Mutagen",
+      "repository": "mutagen-io/mutagen",
+      "url": "https://github.com/mutagen-io/mutagen",
+      "clone_url": "https://github.com/mutagen-io/mutagen.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:02.676682+08:00",
+      "version_or_commit": "6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/mutagen-io/mutagen/6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b/README.md",
+          "final_url": "https://raw.githubusercontent.com/mutagen-io/mutagen/6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b/README.md",
+          "path": "sources/snapshots/mutagen-io--mutagen-readme.txt",
+          "sha256": "5ab21aa9781063f88ac449b8f34937fb1d883e410338af4d25ab25e19d6b28a3",
+          "http_status": 200,
+          "line_count": 123,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/mutagen-io/mutagen/6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/mutagen-io/mutagen/6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b/LICENSE",
+          "path": "sources/snapshots/mutagen-io--mutagen-license.txt",
+          "sha256": "886ee5c61fb4b87bfe80499a667e1b0e4ab0216d133b0c7ec9f0859f73127d55",
+          "http_status": 200,
+          "line_count": 40,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/mutagen-io/mutagen.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "mutagen-io--mutagen-axis-1",
+          "field": "decision_axis_1",
+          "statement": "local tools to work with code in remote environments like cloud servers and containers. It does this by providing high-performance real-time file synchronization and flexible network forwarding.",
+          "upstream_url": "https://raw.githubusercontent.com/mutagen-io/mutagen/6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b/README.md",
+          "version_or_commit": "6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b",
+          "checked_at": "2026-11-21T21:16:02.676682+08:00",
+          "snapshot_path": "sources/snapshots/mutagen-io--mutagen-readme.txt",
+          "line_start": 4,
+          "line_end": 7,
+          "upstream_excerpt": "local tools to work with code in remote environments like cloud servers and\ncontainers. It does this by providing high-performance real-time\n[file synchronization](https://mutagen.io/documentation/synchronization) and\nflexible [network forwarding](https://mutagen.io/documentation/forwarding).",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "mutagen-io--mutagen-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Mutagen uses semantic versioning for tracking releases. Before Mutagen reaches version 1.0, each minor release series will be supported for one month after the first release in the next minor release \u2026",
+          "upstream_url": "https://raw.githubusercontent.com/mutagen-io/mutagen/6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b/README.md",
+          "version_or_commit": "6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b",
+          "checked_at": "2026-11-21T21:16:02.676682+08:00",
+          "snapshot_path": "sources/snapshots/mutagen-io--mutagen-readme.txt",
+          "line_start": 76,
+          "line_end": 79,
+          "upstream_excerpt": "Mutagen uses [semantic versioning](https://semver.org/) for tracking releases.\nBefore Mutagen reaches version 1.0, each minor release series will be supported\nfor one month after the first release in the next minor release series (e.g.\nv0.10.x will be supported until one month after the release of v0.11.0).",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "mutagen-io--mutagen-axis-3",
+          "field": "decision_axis_3",
+          "statement": "file synchronization and flexible network forwarding. It supports synchronization and forwarding between local systems,",
+          "upstream_url": "https://raw.githubusercontent.com/mutagen-io/mutagen/6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b/README.md",
+          "version_or_commit": "6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b",
+          "checked_at": "2026-11-21T21:16:02.676682+08:00",
+          "snapshot_path": "sources/snapshots/mutagen-io--mutagen-readme.txt",
+          "line_start": 6,
+          "line_end": 9,
+          "upstream_excerpt": "[file synchronization](https://mutagen.io/documentation/synchronization) and\nflexible [network forwarding](https://mutagen.io/documentation/forwarding).\nIt supports synchronization and forwarding between\n[local systems](https://mutagen.io/documentation/transports/local),",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "mutagen-io--mutagen-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/mutagen-io/mutagen/6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b/LICENSE",
+          "version_or_commit": "6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b",
+          "checked_at": "2026-11-21T21:16:02.676682+08:00",
+          "snapshot_path": "sources/snapshots/mutagen-io--mutagen-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "Unless otherwise specified, all code in this repository is made available under\nthe terms of the MIT License, the text of which can be found below.\n\nSome code has been forked and/or vendored from projects released under different\nnon-copyleft licenses, all of which are indicated by comments at the top of the\nrelevant files.\n\nAll code that resides under the sspl directory is made available under the terms\nof the Server Side Public License, the text of which can be found in\nsspl/LICENSE.\n\nFrom Mutagen v0.17 onward, SSPL-licensed code is included by default in official",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/mutagen-io--mutagen-observation.json"
+    },
+    {
+      "name": "Dufs",
+      "repository": "sigoden/dufs",
+      "url": "https://github.com/sigoden/dufs",
+      "clone_url": "https://github.com/sigoden/dufs.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:16:04.222588+08:00",
+      "version_or_commit": "77291a230565ca090a1d7751d07db82ac418906d",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/sigoden/dufs/77291a230565ca090a1d7751d07db82ac418906d/README.md",
+          "final_url": "https://raw.githubusercontent.com/sigoden/dufs/77291a230565ca090a1d7751d07db82ac418906d/README.md",
+          "path": "sources/snapshots/sigoden--dufs-readme.txt",
+          "sha256": "6a6374001e3f917d9d51496698bb2fccf2aa9c89ead2c3b20fbf3ee31686825b",
+          "http_status": 200,
+          "line_count": 447,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/sigoden/dufs/77291a230565ca090a1d7751d07db82ac418906d/LICENSE-MIT",
+          "final_url": "https://raw.githubusercontent.com/sigoden/dufs/77291a230565ca090a1d7751d07db82ac418906d/LICENSE-MIT",
+          "path": "sources/snapshots/sigoden--dufs-license.txt",
+          "sha256": "4623d04ec401ec83c94b935d75d8b4329e860580e91ed777ef03a0aa3b31bb04",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE-MIT"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/sigoden/dufs.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n77291a230565ca090a1d7751d07db82ac418906d\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "sigoden--dufs-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Dufs is a distinctive utility file server that supports static serving, uploading, searching, accessing control, webdav...",
+          "upstream_url": "https://raw.githubusercontent.com/sigoden/dufs/77291a230565ca090a1d7751d07db82ac418906d/README.md",
+          "version_or_commit": "77291a230565ca090a1d7751d07db82ac418906d",
+          "checked_at": "2026-11-21T21:16:04.222588+08:00",
+          "snapshot_path": "sources/snapshots/sigoden--dufs-readme.txt",
+          "line_start": 7,
+          "line_end": 7,
+          "upstream_excerpt": "Dufs is a distinctive utility file server that supports static serving, uploading, searching, accessing control, webdav...",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "sigoden--dufs-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Allow all operations like upload/delete/search/create/edit...",
+          "upstream_url": "https://raw.githubusercontent.com/sigoden/dufs/77291a230565ca090a1d7751d07db82ac418906d/README.md",
+          "version_or_commit": "77291a230565ca090a1d7751d07db82ac418906d",
+          "checked_at": "2026-11-21T21:16:04.222588+08:00",
+          "snapshot_path": "sources/snapshots/sigoden--dufs-readme.txt",
+          "line_start": 94,
+          "line_end": 94,
+          "upstream_excerpt": "Allow all operations like upload/delete/search/create/edit...",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "sigoden--dufs-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Dufs is a distinctive utility file server that supports static serving, uploading, searching, accessing control, webdav...",
+          "upstream_url": "https://raw.githubusercontent.com/sigoden/dufs/77291a230565ca090a1d7751d07db82ac418906d/README.md",
+          "version_or_commit": "77291a230565ca090a1d7751d07db82ac418906d",
+          "checked_at": "2026-11-21T21:16:04.222588+08:00",
+          "snapshot_path": "sources/snapshots/sigoden--dufs-readme.txt",
+          "line_start": 7,
+          "line_end": 7,
+          "upstream_excerpt": "Dufs is a distinctive utility file server that supports static serving, uploading, searching, accessing control, webdav...",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "sigoden--dufs-license",
+          "field": "license_model",
+          "statement": "MIT OR Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/sigoden/dufs/77291a230565ca090a1d7751d07db82ac418906d/LICENSE-MIT",
+          "version_or_commit": "77291a230565ca090a1d7751d07db82ac418906d",
+          "checked_at": "2026-11-21T21:16:04.222588+08:00",
+          "snapshot_path": "sources/snapshots/sigoden--dufs-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "The MIT License (MIT)\n\nCopyright (c) sigoden(2022)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/sigoden--dufs-observation.json"
+    }
+  ],
+  "checked_at": "2026-11-21T21:30:03.350555+08:00",
+  "review_round": "narrow_remediation"
+}

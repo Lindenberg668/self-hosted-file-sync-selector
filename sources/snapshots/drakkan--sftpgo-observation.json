@@ -1,0 +1,38 @@
+{
+  "repository": "drakkan/sftpgo",
+  "checked_at": "2026-11-21T21:15:55.088374+08:00",
+  "revision": "360ca0118892afac6f162920b0f08e5b5660b436",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/drakkan/sftpgo.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n360ca0118892afac6f162920b0f08e5b5660b436\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/drakkan/sftpgo/360ca0118892afac6f162920b0f08e5b5660b436/README.md",
+      "final_url": "https://raw.githubusercontent.com/drakkan/sftpgo/360ca0118892afac6f162920b0f08e5b5660b436/README.md",
+      "path": "sources/snapshots/drakkan--sftpgo-readme.txt",
+      "sha256": "d6c4c3670c8c1a4f3bbbd874ad5580cd78d3296d389f4d00b5652292012e708e",
+      "http_status": 200,
+      "line_count": 129,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/drakkan/sftpgo/360ca0118892afac6f162920b0f08e5b5660b436/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/drakkan/sftpgo/360ca0118892afac6f162920b0f08e5b5660b436/LICENSE",
+      "path": "sources/snapshots/drakkan--sftpgo-license.txt",
+      "sha256": "20b067f86de375aae6db0f283ab2e65de24d537733b89bd58432c101259d84cf",
+      "http_status": 200,
+      "line_count": 661,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

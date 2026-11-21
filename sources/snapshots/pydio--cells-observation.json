@@ -1,0 +1,38 @@
+{
+  "repository": "pydio/cells",
+  "checked_at": "2026-11-21T21:15:54.887401+08:00",
+  "revision": "e53f0eec4e719903e67aff3b61a9be83d6c242ea",
+  "branch": "v5-dev",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/pydio/cells.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/v5-dev\tHEAD\ne53f0eec4e719903e67aff3b61a9be83d6c242ea\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/pydio/cells/e53f0eec4e719903e67aff3b61a9be83d6c242ea/README.md",
+      "final_url": "https://raw.githubusercontent.com/pydio/cells/e53f0eec4e719903e67aff3b61a9be83d6c242ea/README.md",
+      "path": "sources/snapshots/pydio--cells-readme.txt",
+      "sha256": "c520e60d05dd0c72fd003599364846288380f9b5810e5b145c9710a14ae49ecd",
+      "http_status": 200,
+      "line_count": 111,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/pydio/cells/e53f0eec4e719903e67aff3b61a9be83d6c242ea/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/pydio/cells/e53f0eec4e719903e67aff3b61a9be83d6c242ea/LICENSE",
+      "path": "sources/snapshots/pydio--cells-license.txt",
+      "sha256": "76a97c878c9c7a8321bb395c2b44d3fe2f8d81314d219b20138ed0e2dddd5182",
+      "http_status": 200,
+      "line_count": 661,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

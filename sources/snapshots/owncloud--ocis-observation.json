@@ -1,0 +1,38 @@
+{
+  "repository": "owncloud/ocis",
+  "checked_at": "2026-11-21T21:15:48.325544+08:00",
+  "revision": "3c585e0b2fd7b95d72e14197ab70342ee8b03704",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/owncloud/ocis.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n3c585e0b2fd7b95d72e14197ab70342ee8b03704\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/owncloud/ocis/3c585e0b2fd7b95d72e14197ab70342ee8b03704/README.md",
+      "final_url": "https://raw.githubusercontent.com/owncloud/ocis/3c585e0b2fd7b95d72e14197ab70342ee8b03704/README.md",
+      "path": "sources/snapshots/owncloud--ocis-readme.txt",
+      "sha256": "217a17d483c05f78ab198dc243a80e122810494bde4c7cc01b0435f71886d438",
+      "http_status": 200,
+      "line_count": 167,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/owncloud/ocis/3c585e0b2fd7b95d72e14197ab70342ee8b03704/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/owncloud/ocis/3c585e0b2fd7b95d72e14197ab70342ee8b03704/LICENSE",
+      "path": "sources/snapshots/owncloud--ocis-license.txt",
+      "sha256": "28a3737c7fdcaf76abd48d12d3a3334a75ac7a4a5924a550d7e437fc41a49e99",
+      "http_status": 200,
+      "line_count": 202,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "mutagen-io/mutagen",
+  "checked_at": "2026-11-21T21:16:02.676682+08:00",
+  "revision": "6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/mutagen-io/mutagen.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/mutagen-io/mutagen/6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b/README.md",
+      "final_url": "https://raw.githubusercontent.com/mutagen-io/mutagen/6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b/README.md",
+      "path": "sources/snapshots/mutagen-io--mutagen-readme.txt",
+      "sha256": "5ab21aa9781063f88ac449b8f34937fb1d883e410338af4d25ab25e19d6b28a3",
+      "http_status": 200,
+      "line_count": 123,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/mutagen-io/mutagen/6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/mutagen-io/mutagen/6ccfeaaf4dfd261e59ef9aac56e3c157b62e605b/LICENSE",
+      "path": "sources/snapshots/mutagen-io--mutagen-license.txt",
+      "sha256": "886ee5c61fb4b87bfe80499a667e1b0e4ab0216d133b0c7ec9f0859f73127d55",
+      "http_status": 200,
+      "line_count": 40,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}
