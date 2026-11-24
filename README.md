@@ -1,6 +1,5 @@
 # Self-Hosted File Sync Selector
 
-
 > **Decision:** Use this selector to choose the authority topology before comparing file-sync features; skip it if you have not decided between peer replicas, a central library, collaboration suite, gateway, or portal.
 >
 > **For:** individuals and small teams controlling file synchronization and sharing  ·  **Not for:** users seeking a zero-operations hosted drive or assuming sync is backup
@@ -10,7 +9,6 @@ This is a non-commercial, source-traceable decision guide. It normalizes upstrea
 **Start here:** [Download the replica and gateway ledger](assets/sync-authority-conflict-sheet.csv) — twelve projects, located upstream evidence, and explicit unknowns.
 
 ## Choose by workload
-
 
 - Device-to-device folder replicas with no central cloud: Syncthing or Unison.
 - Central synchronized library: Seafile; full collaboration suite: Nextcloud or ownCloud Infinite Scale.
@@ -24,12 +22,10 @@ A gateway provides access, a synchronizer reconciles copies, and a backup retain
 
 ## Authority topology
 
-
 - **Replica synchronization** — Syncthing and Unison reconcile peers; Mutagen optimizes development sessions. Conflict policy and deletion propagation are the core tests.
 - **Central file platforms** — Seafile, Nextcloud, ownCloud Infinite Scale, Pydio Cells, and Cozy Stack make a server authoritative and add varying collaboration layers.
 - **Gateways and transfer** — SFTPGo exposes storage through protocols; rclone copies/synchronizes across backends. Neither automatically supplies collaborative editing.
 - **Web access surfaces** — Filestash and Dufs expose files in a browser or over simple protocols; pair them with independently managed storage and backup.
-
 
 ## Replica and gateway ledger
 
@@ -52,9 +48,7 @@ Values are short excerpts from the frozen upstream README, not feature-test scor
 
 ## Keep the authority path explicit
 
-
 Start with a disposable two-client conflict test: concurrent edits, rename, delete, offline reconnect, and rollback. For a central platform, back up database, blobs, configuration, and keys together. For gateways, document whether the gateway or backend enforces users and versions. Sync is never a substitute for an offline backup.
-
 
 ## Adoption notes by project
 
