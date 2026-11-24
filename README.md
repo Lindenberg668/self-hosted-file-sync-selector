@@ -1,8 +1,9 @@
 # Self-Hosted File Sync Selector
 
-> **Decision:** Choose the authority topology—peer-to-peer replicas, a server library, a collaboration suite, a protocol gateway, or a web portal—before comparing features.
 
-**For:** Individuals and small teams deciding how files should synchronize and be shared across devices.  
+> **Decision:** Use this selector to choose the authority topology before comparing file-sync features; skip it if you have not decided between peer replicas, a central library, collaboration suite, gateway, or portal.
+>
+> **For:** individuals and small teams controlling file synchronization and sharing  ·  **Not for:** users seeking a zero-operations hosted drive or assuming sync is backup
 
 This is a non-commercial, source-traceable decision guide. It normalizes upstream declarations; it does not claim that repository reachability proves functionality, security, maintenance, or fitness.
 
@@ -152,6 +153,12 @@ Start with a disposable two-client conflict test: concurrent edits, rename, dele
 
 File authority, replica reconciliation and access gateways, not versioned backup-format selection.
 
+## Adjacent guides
+
+- [encrypted-backup-tool-selector](https://github.com/Anguianodd/encrypted-backup-tool-selector) — Use it when synchronized files also need independent, versioned, restorable backups.
+- [open-source-document-workflow-index](https://github.com/mckee19/open-source-document-workflow-index) — Use it when synchronized files enter an OCR, records, retrieval, or preservation workflow.
+- [open-source-secrets-management-landscape](https://github.com/RichardPadavttan/open-source-secrets-management-landscape) — Use it when sync credentials and service secrets need an explicit delivery and rotation pattern.
+
 ## Located sources and update policy
 
 [`sources.json`](sources.json) binds each cited declaration to a commit, document, exact line range and local snapshot hash. [`assets/projects.json`](assets/projects.json) holds the normalized roles and decision axes. Current HEAD reachability is recorded separately; it is not a maintenance or security assessment. Licensing is version- and directory-specific. Re-read the selected release before adoption.
@@ -164,3 +171,5 @@ python3 scripts/verify_sources.py --online
 ```
 
 These checks validate source binding, excerpts, hashes, language, the decision asset and nonempty public content. They do not certify feature behavior, migration success or restore success. No popularity score, paid placement or affiliate ranking is used. Restricted-license and historical examples are explicit contrasts, not silently recommended open-source defaults.
+
+If this saved you a decision, star the repo — it is how the next reader finds it.
